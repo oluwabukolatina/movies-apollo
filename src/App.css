@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+  .movie{
+  background: red;
+
+  }
 
 
 
@@ -24,3 +28,23 @@
   color: #61dafb;
 }
 
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  grid-gap: 3rem;
+
+}
+
+.movie-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+
+}
+
+.movie-title {
+  font-size: 1rem;
+  text-align: center;
+}
