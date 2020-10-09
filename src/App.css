@@ -6,12 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-  .movie{
-  background: red;
-
-  }
-
-
+.movie{
+  background: cadetblue;
+}
+.add{margin-top: 2rem; margin-bottom: 2rem; margin-left: 2rem;}
 
 .app-header {
   background-color: #282c34;
@@ -48,3 +46,5 @@
   font-size: 1rem;
   text-align: center;
 }
+.movie-image{width: 100%;
+  height: 17rem; }

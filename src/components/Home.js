@@ -2,7 +2,7 @@ import React from 'react';
 import AddMovie from './AddMovie';
 import { useQuery } from '@apollo/client';
 import { GET_MOVIES } from '../graphql/queries';
-import Movie from './Movies';
+import Movie from './Movie';
 
 function Home() {
   const { data, loading } = useQuery(GET_MOVIES);
